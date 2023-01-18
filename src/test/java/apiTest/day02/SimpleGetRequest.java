@@ -54,7 +54,7 @@ public class SimpleGetRequest {
         //{"guarding":2,"sold":9,"string":546,"pending":10,"available":402,"not available":1,
         // "active":12,"good":1,"totvs1":1}
 
-        Assert.assertTrue(response.body().asString().contains("guarding"));
+        Assert.assertTrue(response.body().asString().contains("sold"));
 
     }
 

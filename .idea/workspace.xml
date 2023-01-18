@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/kraftech/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day02/SimpleGetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithNegatifParams.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathMethod.java" afterDir="false" />
+    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="second commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,18 +39,35 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.UserGetRequestWithPathMethod.testWithPathMethod">
-    <configuration name="UserGetRequestWithNegatifParams.queryParams" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SimpleGetRequest">
+    <configuration name="SimpleGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="PATTERN" value="apiTest.day02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithNegatifParams" />
-      <option name="METHOD_NAME" value="queryParams" />
+      <option name="PACKAGE_NAME" value="apiTest.day02" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SimpleGetRequest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day02" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
+      <option name="METHOD_NAME" value="test4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -68,7 +75,24 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetRequestWithNegatifParams.requestWithMap" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserGetRequestWithNegatifParams" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
@@ -78,8 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day03" />
       <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithNegatifParams" />
-      <option name="METHOD_NAME" value="requestWithMap" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -104,49 +127,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetRequestWithPathMethod.testWithPathMethod" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B2_Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithPathMethod" />
-      <option name="METHOD_NAME" value="testWithPathMethod" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserGetRequest.test2" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B2_Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequest" />
-      <option name="METHOD_NAME" value="test2" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserGetRequestWithPathMethod.testWithPathMethod" />
-        <item itemvalue="TestNG.UserGetRequestWithNegatifParams.requestWithMap" />
-        <item itemvalue="TestNG.UserGetRequestWithNegatifParams.queryParams" />
+        <item itemvalue="TestNG.SimpleGetRequest" />
+        <item itemvalue="TestNG.SimpleGetRequest.test4" />
+        <item itemvalue="TestNG.UserGetRequest" />
+        <item itemvalue="TestNG.UserGetRequestWithNegatifParams" />
         <item itemvalue="TestNG.UserGetRequestWithNegatifParams.test1" />
-        <item itemvalue="TestNG.UserGetRequest.test2" />
       </list>
     </recent_temporary>
   </component>
@@ -159,6 +146,14 @@
       <option name="presentableId" value="Default" />
       <updated>1673978461228</updated>
     </task>
+    <task id="LOCAL-00001" summary="second commit">
+      <created>1674070193496</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674070193496</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -171,5 +166,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="second commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
   </component>
 </project>
