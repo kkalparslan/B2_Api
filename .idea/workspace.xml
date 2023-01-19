@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="second commit">
+    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="third commit">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04_jsonpath/UserWithJ_sonPath.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day02/SimpleGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day02/SimpleGetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathMethod.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,35 +43,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.SimpleGetRequest">
-    <configuration name="SimpleGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UserWithJ_sonPath.test111">
+    <configuration name="UserGetRequestWithPathMethod.bookTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
+          <option name="PATTERN" value="apiTest.day03.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SimpleGetRequest.test4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="B2_Api" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="apiTest.day02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day02" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day02.SimpleGetRequest" />
-      <option name="METHOD_NAME" value="test4" />
+      <option name="PACKAGE_NAME" value="apiTest.day03" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithPathMethod" />
+      <option name="METHOD_NAME" value="bookTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -75,7 +62,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetRequest" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserGetRequestWithPathMethod.testAllUserWithPathParam" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
@@ -84,42 +71,62 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequest" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithPathMethod" />
+      <option name="METHOD_NAME" value="testAllUserWithPathParam" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetRequestWithNegatifParams" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserWithJ_sonPath.isaAkyuzTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="PATTERN" value="apiTest.day04_jsonpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithNegatifParams" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="apiTest.day04_jsonpath" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04_jsonpath.UserWithJ_sonPath" />
+      <option name="METHOD_NAME" value="isaAkyuzTest" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserGetRequestWithNegatifParams.test1" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserWithJ_sonPath.test1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day03.*" />
+          <option name="PATTERN" value="apiTest.day04_jsonpath.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day03" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day03.UserGetRequestWithNegatifParams" />
+      <option name="PACKAGE_NAME" value="apiTest.day04_jsonpath" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04_jsonpath.UserWithJ_sonPath" />
       <option name="METHOD_NAME" value="test1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserWithJ_sonPath.test111" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="B2_Api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="apiTest.day04_jsonpath.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="apiTest.day04_jsonpath" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day04_jsonpath.UserWithJ_sonPath" />
+      <option name="METHOD_NAME" value="test111" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -129,11 +136,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.SimpleGetRequest" />
-        <item itemvalue="TestNG.SimpleGetRequest.test4" />
-        <item itemvalue="TestNG.UserGetRequest" />
-        <item itemvalue="TestNG.UserGetRequestWithNegatifParams" />
-        <item itemvalue="TestNG.UserGetRequestWithNegatifParams.test1" />
+        <item itemvalue="TestNG.UserWithJ_sonPath.test111" />
+        <item itemvalue="TestNG.UserWithJ_sonPath.isaAkyuzTest" />
+        <item itemvalue="TestNG.UserWithJ_sonPath.test1" />
+        <item itemvalue="TestNG.UserGetRequestWithPathMethod.bookTest" />
+        <item itemvalue="TestNG.UserGetRequestWithPathMethod.testAllUserWithPathParam" />
       </list>
     </recent_temporary>
   </component>
@@ -153,7 +160,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674070193496</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="third commit">
+      <created>1674076381025</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674076381025</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -169,6 +183,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="second commit" />
+    <MESSAGE value="third commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="third commit" />
   </component>
 </project>

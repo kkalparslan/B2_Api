@@ -35,7 +35,6 @@ public class UserGetRequest {
         And content type should be application/json; charset=UTF-8
         And json body should contain Thomas Eduson
     */
-
     @Test
     public void test2(){
         Response response=given().accept(ContentType.JSON)
@@ -48,7 +47,8 @@ public class UserGetRequest {
         Assert.assertEquals(response.header("Content-Type"), "application/json; charset=UTF-8");
         Assert.assertEquals(response.header("Content-Length"), "636");
         Assert.assertTrue(response.body().asString().contains("Thomas Eduson"));
-
+        Assert.assertTrue(response.body().asString().contains("Developer"));
+        Assert.assertTrue(response.headers().hasHeaderWithName("Date"));
     }
 
 
