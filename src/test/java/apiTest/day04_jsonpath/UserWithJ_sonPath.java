@@ -7,6 +7,7 @@ import org.testng.Assert;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import static io.restassured.RestAssured.baseURI;
@@ -74,10 +75,17 @@ public class UserWithJ_sonPath {
         JsonPath jsonPath = response.jsonPath();
 
         String secondName = jsonPath.getString("name[1]");
-        List<String> jobs = jsonPath.getList("experience.job[0]");
+        List<String> jobs = jsonPath.getList("experience.job[0]"); // Gpathsyntex parantez
+        // içinin ismi. Parent dan child a gidiş
         System.out.println("jobs = " + jobs);
         Assert.assertEquals(secondName, "isa akyuz");
-        Assert.assertEquals(jobs, jsonPath.getList("experience.job[0]"));
+        List<String>jobsList=new ArrayList<>();
+        jobsList.add("Junior Developer1");
+        jobsList.add("Junior Developer1");
+        jobsList.add("Junior Developer");
+        System.out.println("jobsList = " + jobsList);
+
+        Assert.assertEquals(jobs, jobsList);
     }
 
     /**
@@ -106,7 +114,6 @@ public class UserWithJ_sonPath {
         System.out.println("skills = " + skills);
         String firstSkill=jsonPath.getString("skills[0][0]");
         System.out.println("firstSkill = " + firstSkill);
-
 
     }
 }

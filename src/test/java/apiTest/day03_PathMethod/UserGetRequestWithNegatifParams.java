@@ -1,4 +1,4 @@
-package apiTest.day03;
+package apiTest.day03_PathMethod;
 
 import static io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
@@ -9,7 +9,6 @@ import org.testng.annotations.Test;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.Objects;
 
 public class UserGetRequestWithNegatifParams {
 

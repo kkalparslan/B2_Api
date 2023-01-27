@@ -11,6 +11,17 @@ public class SimpleGetRequest {
     String petStoreUrl="https://petstore.swagger.io/v2";
     String exlabUrl="https://www.krafttechexlab.com/sw/api/v1";
 
+    /**
+     * swaggerlar:
+     * kraftechlab=https://www.krafttechexlab.com/sw/api/documentation/
+     * demoqa=https://demoqa.com/swagger/
+     * petStore=https://petstore.swagger.io/
+     *
+     * jsonpathfinder=https://jsonpathfinder.com/
+     * editor=https://jsoneditoronline.org/#left=local.jifaco&right=local.bineqo
+     */
+
+
     @Test
     public void test1(){
         Response response = RestAssured.get(petStoreUrl+"/store/inventory");

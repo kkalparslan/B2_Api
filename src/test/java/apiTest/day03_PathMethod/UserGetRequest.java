@@ -1,6 +1,5 @@
-package apiTest.day03;
+package apiTest.day03_PathMethod;
 
-import io.restassured.RestAssured.*;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import org.testng.Assert;
