@@ -4,24 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="19.01.23 new codes and studing added">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05_HamcrestMatcher/HamcrestMatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day05_HamcrestMatcher/JsonToJavaCollection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day06_Pojo/DeSerializationExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day06_Pojo/GsonTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day06_Pojo/POJO_Deserialization.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day06_Pojo/PetStoreUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07_POST_Request/NewUserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07_POST_Request/PostEducation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07_POST_Request/PostRequestDemo.java" afterDir="false" />
+    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="post request added 27.01.23">
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/DeleteExperience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PatchExperience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PostNewExperience.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PostNewUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PutExperience.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day02/SimpleGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day02/SimpleGetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03_PathMethod/UserGetRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithNegatifParams.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03_PathMethod/UserGetRequestWithNegatifParams.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day03/UserGetRequestWithPathMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day03_PathMethod/UserGetRequestWithPathMethod.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day04_jsonpath/UserWithJ_sonPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day04_jsonpath/UserWithJ_sonPath.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,18 +44,18 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.PostEducation.postNewUserAndVerify">
-    <configuration name="PostEducation.postNewUser" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.DeleteExperience.deleteExperience">
+    <configuration name="DeleteExperience.deleteExperience" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day07_POST_Request.*" />
+          <option name="PATTERN" value="apiTest.day08_PutPatchDelete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day07_POST_Request" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day07_POST_Request.PostEducation" />
-      <option name="METHOD_NAME" value="postNewUser" />
+      <option name="PACKAGE_NAME" value="apiTest.day08_PutPatchDelete" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08_PutPatchDelete.DeleteExperience" />
+      <option name="METHOD_NAME" value="deleteExperience" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -74,17 +63,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostEducation.postNewUserAndVerify" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PatchExperience.patchExperience" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day07_POST_Request.*" />
+          <option name="PATTERN" value="apiTest.day08_PutPatchDelete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day07_POST_Request" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day07_POST_Request.PostEducation" />
-      <option name="METHOD_NAME" value="postNewUserAndVerify" />
+      <option name="PACKAGE_NAME" value="apiTest.day08_PutPatchDelete" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08_PutPatchDelete.PatchExperience" />
+      <option name="METHOD_NAME" value="patchExperience" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -92,17 +81,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequestDemo.postNewUser2" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostNewExperience.newExperience" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day07_POST_Request.*" />
+          <option name="PATTERN" value="apiTest.day08_PutPatchDelete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day07_POST_Request" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day07_POST_Request.PostRequestDemo" />
-      <option name="METHOD_NAME" value="postNewUser2" />
+      <option name="PACKAGE_NAME" value="apiTest.day08_PutPatchDelete" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08_PutPatchDelete.PostNewExperience" />
+      <option name="METHOD_NAME" value="newExperience" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,17 +99,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequestDemo.postNewUser3" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PostNewUser.newUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day07_POST_Request.*" />
+          <option name="PATTERN" value="apiTest.day08_PutPatchDelete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day07_POST_Request" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day07_POST_Request.PostRequestDemo" />
-      <option name="METHOD_NAME" value="postNewUser3" />
+      <option name="PACKAGE_NAME" value="apiTest.day08_PutPatchDelete" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08_PutPatchDelete.PostNewUser" />
+      <option name="METHOD_NAME" value="newUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,17 +117,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PostRequestDemo.postNewUser4" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="PutExperience.updateExperience" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day07_POST_Request.*" />
+          <option name="PATTERN" value="apiTest.day08_PutPatchDelete.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day07_POST_Request" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day07_POST_Request.PostRequestDemo" />
-      <option name="METHOD_NAME" value="postNewUser4" />
+      <option name="PACKAGE_NAME" value="apiTest.day08_PutPatchDelete" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day08_PutPatchDelete.PutExperience" />
+      <option name="METHOD_NAME" value="updateExperience" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,11 +137,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PostEducation.postNewUserAndVerify" />
-        <item itemvalue="TestNG.PostEducation.postNewUser" />
-        <item itemvalue="TestNG.PostRequestDemo.postNewUser4" />
-        <item itemvalue="TestNG.PostRequestDemo.postNewUser3" />
-        <item itemvalue="TestNG.PostRequestDemo.postNewUser2" />
+        <item itemvalue="TestNG.DeleteExperience.deleteExperience" />
+        <item itemvalue="TestNG.PatchExperience.patchExperience" />
+        <item itemvalue="TestNG.PutExperience.updateExperience" />
+        <item itemvalue="TestNG.PostNewExperience.newExperience" />
+        <item itemvalue="TestNG.PostNewUser.newUser" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +175,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674150544305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="post request added 27.01.23">
+      <created>1674834125524</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1674834125524</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +200,7 @@
     <MESSAGE value="second commit" />
     <MESSAGE value="third commit" />
     <MESSAGE value="19.01.23 new codes and studing added" />
-    <option name="LAST_COMMIT_MESSAGE" value="19.01.23 new codes and studing added" />
+    <MESSAGE value="post request added 27.01.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="post request added 27.01.23" />
   </component>
 </project>
