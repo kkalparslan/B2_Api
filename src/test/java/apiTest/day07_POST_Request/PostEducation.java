@@ -26,8 +26,8 @@ public class PostEducation {
     @Test
     public void postNewUser(){
 
-        NewUserInfo newUserInfo=new NewUserInfo("azra6", "azra6@krafttechexlab.com",
-                "azra6", "student", "5");
+        NewUserInfo newUserInfo=new NewUserInfo("azram", "azram@krafttechexlab.com",
+                "azram1", "student", "5");
         Response response = given().accept(ContentType.JSON)
                 .and()
                 .contentType(ContentType.JSON) //serialization
