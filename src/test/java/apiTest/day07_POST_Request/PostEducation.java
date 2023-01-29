@@ -107,7 +107,7 @@ public class PostEducation {
         int id=response.path("id");
         response=given().accept(ContentType.JSON)
                 .and()
-                .queryParam("token", token)
+                .queryParam("token", token) // swaggerda querry yada headre olarak değişebiliyor. dikkat edilmeli
                 .pathParam("id", id)
                 .when()
                 .get("/education/getbyid/{id}");
@@ -123,7 +123,7 @@ public class PostEducation {
         //verify using hamcrest matcher
         given().accept(ContentType.JSON)
                 .and()
-                .queryParam("token", token)
+                .queryParam("token", token) // swaggerda querry yada headre olarak değişebiliyor. dikkat edilmeli
                 .pathParam("id", id)
                 .when()
                 .get("/education/getbyid/{id}")

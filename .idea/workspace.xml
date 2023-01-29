@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="post request added 27.01.23">
+    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="post request added 29.01.23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day07_POST_Request/PostEducation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07_POST_Request/PostEducation.java" afterDir="false" />
     </list>
@@ -185,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674859765153</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="post request added 29.01.23">
+      <created>1674940701823</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1674940701823</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -204,6 +211,7 @@
     <MESSAGE value="third commit" />
     <MESSAGE value="19.01.23 new codes and studing added" />
     <MESSAGE value="post request added 27.01.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="post request added 27.01.23" />
+    <MESSAGE value="post request added 29.01.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="post request added 29.01.23" />
   </component>
 </project>
