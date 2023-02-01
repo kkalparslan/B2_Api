@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="post request added 29.01.23">
+    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="new code added 30.01.23">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -198,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674996500858</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="new code added 30.01.23">
+      <created>1675089893182</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1675089893182</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -218,6 +225,7 @@
     <MESSAGE value="19.01.23 new codes and studing added" />
     <MESSAGE value="post request added 27.01.23" />
     <MESSAGE value="post request added 29.01.23" />
-    <option name="LAST_COMMIT_MESSAGE" value="post request added 29.01.23" />
+    <MESSAGE value="new code added 30.01.23" />
+    <option name="LAST_COMMIT_MESSAGE" value="new code added 30.01.23" />
   </component>
 </project>
