@@ -49,6 +49,4 @@ public class UserGetRequest {
         Assert.assertTrue(response.body().asString().contains("Developer"));
         Assert.assertTrue(response.headers().hasHeaderWithName("Date"));
     }
-
-
 }

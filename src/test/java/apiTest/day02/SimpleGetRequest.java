@@ -66,9 +66,5 @@ public class SimpleGetRequest {
         // "active":12,"good":1,"totvs1":1}
 
         Assert.assertTrue(response.body().asString().contains("sold"));
-
     }
-
-
-
 }

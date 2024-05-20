@@ -114,7 +114,5 @@ public class UserGetRequestWithPathMethod {
 
         Assert.assertEquals(isbn, "9781449325862");
         Assert.assertEquals(publisher, "O'Reilly Media");
-
     }
-
 }

@@ -34,7 +34,6 @@ public class UserGetRequestWithNegatifParams {
         Assert.assertEquals(response.statusCode(), 404);
         Assert.assertEquals(response.contentType(), "application/json; charset=UTF-8");
         Assert.assertTrue(response.body().asString().contains("No User Record Found..."));
-
     }
 
     /**
@@ -103,9 +102,5 @@ public class UserGetRequestWithNegatifParams {
 
         //verify skills
         Assert.assertTrue(response.body().asString().contains("Cypres"));
-
     }
-
-
-
 }
