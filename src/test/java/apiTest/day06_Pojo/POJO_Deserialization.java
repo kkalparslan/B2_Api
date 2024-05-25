@@ -50,7 +50,6 @@ public class POJO_Deserialization {
         System.out.println("oneUser.getPhone() = " + oneUser.getPhone());
         System.out.println("oneUser.getUserStatus() = " + oneUser.getUserStatus());
 
-
         // verify all information
 
         Assert.assertEquals(oneUser.getId(), 9.2229681404971991E18);
@@ -61,7 +60,6 @@ public class POJO_Deserialization {
         Assert.assertEquals(oneUser.getPassword(), "Test1234");
         Assert.assertEquals(oneUser.getPhone(), "55512345");
         Assert.assertEquals(oneUser.getUserStatus(), 21);
-
     }
 
 //    @Test

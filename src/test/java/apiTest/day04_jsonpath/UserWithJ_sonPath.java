@@ -19,7 +19,6 @@ public class UserWithJ_sonPath {
 
         baseURI = "https://www.krafttechexlab.com/sw/api/v1";
     }
-
     /**
      * TASK
      * Given accept type is json
@@ -31,7 +30,6 @@ public class UserWithJ_sonPath {
      * And user's id should be 111
      * And user's email should be thomas@test.com
      */
-
     @Test
     public void test1() {
         Response response = given().accept(ContentType.JSON)
@@ -114,6 +112,5 @@ public class UserWithJ_sonPath {
         System.out.println("skills = " + skills);
         String firstSkill=jsonPath.getString("skills[0][0]");
         System.out.println("firstSkill = " + firstSkill);
-
     }
 }
