@@ -17,7 +17,6 @@ public class JsonToJavaCollection {
 
     @BeforeClass
     public void beforeClass() {
-
         baseURI = "https://www.krafttechexlab.com/sw/api/v1";
     }
 
@@ -67,6 +66,5 @@ public class JsonToJavaCollection {
         List<Map<String, Object>>experienceListMap= (List<Map<String, Object>>) allUserMap.get(0).get("experience");
         System.out.println(experienceListMap);
         System.out.println(experienceListMap.get(2).get("job"));
-
     }
 }

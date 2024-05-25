@@ -16,7 +16,6 @@ public class DeSerializationExample {
 
     @BeforeClass
     public void beforeClass() {
-
         baseURI = "https://www.krafttechexlab.com/sw/api/v1";
     }
 
