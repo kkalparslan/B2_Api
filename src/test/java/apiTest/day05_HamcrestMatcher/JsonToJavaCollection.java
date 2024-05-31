@@ -22,7 +22,6 @@ public class JsonToJavaCollection {
 
     @Test
     public void userToMap(){
-
         Response response=given().accept(ContentType.JSON)
                 .when().get("https://demoqa.com/Account/v1/User/11%22");
         Assert.assertEquals(response.statusCode(), 401);
@@ -42,7 +41,6 @@ public class JsonToJavaCollection {
 
     @Test
     public void allUsersToMap(){
-
         Response response=given().accept(ContentType.JSON)
                 .queryParam("pagesize", 50)
                 .queryParam("page", 1)

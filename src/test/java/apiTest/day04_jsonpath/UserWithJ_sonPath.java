@@ -16,7 +16,6 @@ public class UserWithJ_sonPath {
 
     @BeforeClass
     public void beforeClass() {
-
         baseURI = "https://www.krafttechexlab.com/sw/api/v1";
     }
     /**
