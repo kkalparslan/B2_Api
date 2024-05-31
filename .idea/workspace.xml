@@ -22,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="5.25.24" />
+        <entry key="$PROJECT_DIR$" value="31.05.24" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -40,16 +40,17 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Asus/IdeaProjects/B2_Api/src/test/java/apiTest/day02&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "TestNG.JsonToJavaCollection.allUsersToMap.executor": "Run",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Asus/IdeaProjects/B2_Api/src/test/java/apiTest/day02"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Asus\IdeaProjects\B2_Api\src\test\java\apiTest\day02" />
@@ -267,7 +268,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716663514102</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="31.05.24_1">
+      <option name="closed" value="true" />
+      <created>1717187854361</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1717187854361</updated>
+    </task>
+    <task id="LOCAL-00016" summary="31.05.24_1">
+      <option name="closed" value="true" />
+      <created>1717188071863</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1717188071863</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -293,6 +310,7 @@
     <MESSAGE value="added some codes." />
     <MESSAGE value="added some codes 20.05.24" />
     <MESSAGE value="added some codes 25.05.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some codes 25.05.24" />
+    <MESSAGE value="31.05.24_1" />
+    <option name="LAST_COMMIT_MESSAGE" value="31.05.24_1" />
   </component>
 </project>
