@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="added some codes 20.05.24">
+    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="added some codes 25.05.24">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -20,6 +20,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="5.25.24" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -143,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.PostEducation.postNewUser" />
-        <item itemvalue="TestNG.DeleteExperience.deleteExperience" />
-        <item itemvalue="TestNG.PatchExperience.patchExperience" />
         <item itemvalue="TestNG.PutExperience.updateExperience" />
         <item itemvalue="TestNG.PostNewExperience.newExperience" />
+        <item itemvalue="TestNG.PostEducation.postNewUser" />
+        <item itemvalue="TestNG.PatchExperience.patchExperience" />
+        <item itemvalue="TestNG.DeleteExperience.deleteExperience" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +251,23 @@
       <option name="project" value="LOCAL" />
       <updated>1716224035468</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added some codes 20.05.24">
+      <option name="closed" value="true" />
+      <created>1716663271431</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1716663271431</updated>
+    </task>
+    <task id="LOCAL-00014" summary="added some codes 25.05.24">
+      <option name="closed" value="true" />
+      <created>1716663514102</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1716663514102</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -271,6 +292,7 @@
     <MESSAGE value="new code added 19.02.23" />
     <MESSAGE value="added some codes." />
     <MESSAGE value="added some codes 20.05.24" />
-    <option name="LAST_COMMIT_MESSAGE" value="added some codes 20.05.24" />
+    <MESSAGE value="added some codes 25.05.24" />
+    <option name="LAST_COMMIT_MESSAGE" value="added some codes 25.05.24" />
   </component>
 </project>
