@@ -15,7 +15,6 @@ public class HamcrestMatcher {
 
     @BeforeClass
     public void beforeClass() {
-
         baseURI = "https://www.krafttechexlab.com/sw/api/v1";
     }
     /**

@@ -21,7 +21,6 @@ public class DeSerializationExample {
 
     @Test
     public void teask1(){
-
         /**
          * end point==>/allusers/alluser
          * page size=50

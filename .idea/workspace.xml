@@ -55,18 +55,18 @@
       <recent name="C:\Users\Asus\IdeaProjects\B2_Api\src\test\java\apiTest\day02" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.PostEducation.postNewUser">
-    <configuration name="DeleteExperience.deleteExperience" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.JsonToJavaCollection.allUsersToMap">
+    <configuration name="JsonToJavaCollection.allUsersToMap" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="B2_Api" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="apiTest.day08_PutPatchDelete.*" />
+          <option name="PATTERN" value="apiTest.day05_HamcrestMatcher.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="apiTest.day08_PutPatchDelete" />
-      <option name="MAIN_CLASS_NAME" value="apiTest.day08_PutPatchDelete.DeleteExperience" />
-      <option name="METHOD_NAME" value="deleteExperience" />
+      <option name="PACKAGE_NAME" value="apiTest.day05_HamcrestMatcher" />
+      <option name="MAIN_CLASS_NAME" value="apiTest.day05_HamcrestMatcher.JsonToJavaCollection" />
+      <option name="METHOD_NAME" value="allUsersToMap" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.JsonToJavaCollection.allUsersToMap" />
         <item itemvalue="TestNG.PutExperience.updateExperience" />
         <item itemvalue="TestNG.PostNewExperience.newExperience" />
         <item itemvalue="TestNG.PostEducation.postNewUser" />
         <item itemvalue="TestNG.PatchExperience.patchExperience" />
-        <item itemvalue="TestNG.DeleteExperience.deleteExperience" />
       </list>
     </recent_temporary>
   </component>
