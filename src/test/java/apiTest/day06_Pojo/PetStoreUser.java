@@ -1,7 +1,6 @@
 package apiTest.day06_Pojo;
 
 public class PetStoreUser {
-
     /**
       [
         {

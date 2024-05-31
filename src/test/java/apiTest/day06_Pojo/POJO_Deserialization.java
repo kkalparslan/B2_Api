@@ -10,7 +10,6 @@ import org.testng.annotations.Test;
 import static io.restassured.RestAssured.baseURI;
 
 public class POJO_Deserialization {
-
     @BeforeClass
     public void beforeClass(){
         baseURI="https://petstore.swagger.io/v2";
