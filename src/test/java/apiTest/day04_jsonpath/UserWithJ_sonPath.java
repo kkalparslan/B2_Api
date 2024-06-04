@@ -81,7 +81,6 @@ public class UserWithJ_sonPath {
         jobsList.add("Junior Developer1");
         jobsList.add("Junior Developer");
         System.out.println("jobsList = " + jobsList);
-
         Assert.assertEquals(jobs, jobsList);
     }
 

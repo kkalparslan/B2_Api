@@ -36,10 +36,10 @@ public class POJO_Deserialization {
                 .get("/user/{username}");
         System.out.println("response.statusCode() = " + response.statusCode());
 
-        //json to our petStore object
+        //json to our petStore object:
         PetStoreUser oneUser=response.body().as(PetStoreUser.class);
 
-        // print all information
+        // print all information:
         System.out.println("oneUser.getId() = " + oneUser.getId());
         System.out.println("oneUser.getUsername() = " + oneUser.getUsername());
         System.out.println("oneUser.getFirstname() = " + oneUser.getFirstName());
@@ -48,8 +48,7 @@ public class POJO_Deserialization {
         System.out.println("oneUser.getPassword() = " + oneUser.getPassword());
         System.out.println("oneUser.getPhone() = " + oneUser.getPhone());
         System.out.println("oneUser.getUserStatus() = " + oneUser.getUserStatus());
-
-        // verify all information
+        // verify all information:
 
         Assert.assertEquals(oneUser.getId(), 9.2229681404971991E18);
         Assert.assertEquals(oneUser.getUsername(), "Jake23");
