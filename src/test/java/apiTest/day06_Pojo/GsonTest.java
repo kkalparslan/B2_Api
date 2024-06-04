@@ -34,19 +34,18 @@ public class GsonTest {
                 "    \"phone\": \"55512345\",\n" +
                 "    \"userStatus\": 21\n" +
                 "}";
-
         System.out.println("myJsonBody = " + myJsonBody);
 
-        // gson converting to map
+        // gson converting to map:
         Map<String, Object>dataMap=gson.fromJson(myJsonBody, Map.class);
         System.out.println("dataMap = " + dataMap);
 
-        // gson converting to object class
+        // gson converting to object class:
         PetStoreUser oneUser=gson.fromJson(myJsonBody,PetStoreUser.class);
         System.out.println("oneUser = " + oneUser);
 
         //Serialization
-        //Java collection or POJO to Json
+        //Java collection or POJO to Json:
         PetStoreUser petStoreUser=new PetStoreUser(11,"Jake2",
                 "Jakyl","Masters","jaky@gmail.com",
                 "Test1234","55512345",22);
