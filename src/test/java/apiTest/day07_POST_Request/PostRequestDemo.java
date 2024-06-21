@@ -15,13 +15,11 @@ public class PostRequestDemo {
 
     @BeforeClass
     public void beforeClass() {
-
         baseURI = "https://www.krafttechexlab.com/sw/api/v1";
     }
 
     @Test
     public void postNewUser(){
-
         String jsonBody="{\n" +
                 "  \"name\": \"Azra1\",\n" +
                 "  \"email\": \"azra1@krafttechexlab.com\",\n" +
@@ -63,7 +61,6 @@ public class PostRequestDemo {
 
     @Test
     public void postNewUser3(){
-
         NewUserInfo newUserInfo=new NewUserInfo();
         newUserInfo.setName("azra3");
         newUserInfo.setEmail("azra3@krafttechexlab.com");
@@ -97,7 +94,5 @@ public class PostRequestDemo {
         response.prettyPrint();
 
         assertTrue(response.body().asString().contains("token"));
-
-
     }
 }
