@@ -12,13 +12,11 @@ public class PatchExperience {
 
     @BeforeClass
     public void beforeClass() {
-
         baseURI = "https://www.krafttechexlab.com/sw/api/v1";
     }
 
     @Test
     public void patchExperience() {
-
         String body = "{\n" +
                 "  \"job\": \"SDET\",\n" +
                // "  \"company\": \"Amazon\",\n" +
@@ -36,6 +34,5 @@ public class PatchExperience {
                 .when().log().all()
                 .patch("/experience/updatepatch/{id}").prettyPeek();
         assertEquals(response.statusCode(), 200);
-
     }
 }

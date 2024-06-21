@@ -13,13 +13,11 @@ public class PutExperience {
 
     @BeforeClass
     public void beforeClass() {
-
         baseURI = "https://www.krafttechexlab.com/sw/api/v1";
     }
 
     @Test
     public void updateExperience(){
-
         String expBody="{\n" +
                 "  \"job\": \"Product Owner\",\n" +
                 "  \"company\": \"Amazon\",\n" +
