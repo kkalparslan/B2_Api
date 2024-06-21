@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="04.06.24 arranged some codes" />
+    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="021.06.24 arranged some codes">
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day07_POST_Request/PostRequestDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day07_POST_Request/PostRequestDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/DeleteExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/DeleteExperience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PatchExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PatchExperience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PostNewExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PostNewExperience.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PostNewUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PostNewUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PutExperience.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/apiTest/day08_PutPatchDelete/PutExperience.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +27,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="31.05.24" />
+        <entry key="$PROJECT_DIR$" value="master" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -290,7 +297,23 @@
       <option name="project" value="LOCAL" />
       <updated>1717505960537</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="04.06.24 arranged some codes">
+      <option name="closed" value="true" />
+      <created>1718972090121</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1718972090121</updated>
+    </task>
+    <task id="LOCAL-00019" summary="021.06.24 arranged some codes">
+      <option name="closed" value="true" />
+      <created>1718972366491</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1718972366491</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -318,6 +341,7 @@
     <MESSAGE value="added some codes 25.05.24" />
     <MESSAGE value="31.05.24_1" />
     <MESSAGE value="04.06.24 arranged some codes" />
-    <option name="LAST_COMMIT_MESSAGE" value="04.06.24 arranged some codes" />
+    <MESSAGE value="021.06.24 arranged some codes" />
+    <option name="LAST_COMMIT_MESSAGE" value="021.06.24 arranged some codes" />
   </component>
 </project>
