@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="04.06.24 arranged some codes" />
+    <list default="true" id="2eccc25c-d1f1-42d3-aed2-5374a4d0033e" name="Changes" comment="21.06.24 arranged some codes">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_6_4_2024_3_58_PM__Changes_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -147,11 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.JsonToJavaCollection.allUsersToMap" />
         <item itemvalue="TestNG.PutExperience.updateExperience" />
         <item itemvalue="TestNG.PostNewExperience.newExperience" />
         <item itemvalue="TestNG.PostEducation.postNewUser" />
         <item itemvalue="TestNG.PatchExperience.patchExperience" />
+        <item itemvalue="TestNG.JsonToJavaCollection.allUsersToMap" />
       </list>
     </recent_temporary>
   </component>

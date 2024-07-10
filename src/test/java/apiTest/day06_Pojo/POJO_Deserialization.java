@@ -83,7 +83,5 @@ public class POJO_Deserialization {
 //        System.out.println("oneUser.getUserStatus() = " + oneUser.getUserStatus());
 //
 //        //verify all information
-//
-//
 //    }
 }
